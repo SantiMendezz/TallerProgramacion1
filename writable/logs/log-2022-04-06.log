@@ -1,0 +1,9 @@
+CRITICAL - 2022-04-06 11:57:25 --> Invalid file: soyBootstrap.html
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('soyBootstrap.ht...')
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('soyBootstrap.ht...', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(10): view('soyBootstrap.ht...')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

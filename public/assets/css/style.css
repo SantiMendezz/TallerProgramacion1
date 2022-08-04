@@ -1,0 +1,123 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #000000;
+    --blanco-celeste: #EFFFFD;
+    --celeste-claro: #B8FFF9;
+    --celeste: #85F4FF;
+    --azul: #42C2FF;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; /* Hace que un rem valga 10px  */
+    box-sizing: border-box;
+}
+
+ *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Globales */
+body {
+    background-color: var(--blanco-celeste);
+}
+
+text{
+    font-family: var(--bs-font-monospace);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 1rem 0;
+    height: 12rem;
+    width: 12rem;
+}
+
+/* Nav */
+
+
+/* Footer */
+.footer {
+    background-color:var(--azul);
+    padding-bottom: 4rem;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+}
+
+.footer__parrafo {
+    font-family: var(--bs-font-monospace);
+    padding-top: 8rem;
+    font-size: 2rem;
+}
+
+.header__logo--footer {
+    margin-top: 3rem;
+}
+
+/*** Principal ***/
+
+/* Carousel */
+.img-carousel {
+    height: 70rem;
+}
+
+@media (max-width: 768px) {
+    .img-carousel {
+        height: 30rem;
+    }
+}
+
+/* Gloves */
+@media (min-width: 768px) {
+    .gloves {
+        display:grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        margin-top: 4rem;
+    }
+}
+
+.glove {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.glove h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:var(--negro);
+}
+
+.glove .imagenes {
+    height: 15rem;
+    width: 15rem;
+    background-color: #42C2FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-glove-women, .img-glove-man , .img-glove-kids {
+    border-radius: 50%;
+    display: block;
+    height: 20rem;
+    width: 30rem;
+}

@@ -1,0 +1,208 @@
+CRITICAL - 2022-06-17 12:48:48 --> syntax error, unexpected '$cart' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Mendez\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('elimina_del_car...')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('elimina_del_car...')
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 12:49:46 --> syntax error, unexpected '$cart' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Mendez\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('elimina_del_car...')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('elimina_del_car...')
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 12:49:46 --> syntax error, unexpected '$cart' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Mendez\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('elimina_del_car...')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('elimina_del_car...')
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 12:49:47 --> syntax error, unexpected '$cart' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Mendez\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('elimina_del_car...')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('elimina_del_car...')
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 13:45:41 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\Mendez\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Mendez\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-17 15:14:08 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('cart/carrito_vi...', Array, true)
+#3 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(17): view('cart/carrito_vi...')
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->index()
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#6 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-17 15:16:08 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('cart/carrito_vi...', Array, true)
+#3 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(17): view('cart/carrito_vi...')
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->index()
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#6 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-17 15:26:29 --> syntax error, unexpected 'endif' (T_ENDIF)
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('cart/carrito_vi...', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(17): view('cart/carrito_vi...')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 16:07:35 --> Undefined property: App\Controllers\Cart_controller::$session
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:07:59 --> Undefined variable: session
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:08:01 --> Undefined variable: session
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:09:20 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::userdata()
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:09:21 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::userdata()
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:09:57 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:09:57 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:09:58 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:09:58 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:12:25 --> Undefined variable: session_data
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:12:26 --> Undefined variable: session_data
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:12:26 --> Undefined variable: session_data
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:12:41 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:12:41 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:12:42 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:12:42 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:12:42 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:12:42 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:12:42 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:14:21 --> Undefined variable: session
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:14:22 --> Undefined variable: session
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:14:25 --> Undefined variable: session
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Cart_controller.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Cart_controller->comprar_carrito()
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

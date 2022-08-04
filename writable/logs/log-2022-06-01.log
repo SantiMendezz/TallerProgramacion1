@@ -1,0 +1,171 @@
+CRITICAL - 2022-06-01 14:46:37 --> Unclosed '{' on line 25
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 14:47:55 --> Unclosed '{' on line 25
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 14:49:06 --> Unclosed '{' on line 25
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 14:57:45 --> syntax error, unexpected variable "$nombre"
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:00:24 --> Unclosed '{' on line 26
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:02:09 --> Unclosed '{' on line 27
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:02:23 --> Unclosed '{' on line 27
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:04:26 --> Unclosed '{' on line 28
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:08:12 --> Unclosed '{' on line 28
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:18:29 --> Unclosed '{' on line 28
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:18:31 --> Unclosed '{' on line 28
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:19:45 --> Unclosed '{' on line 28
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:19:47 --> Unclosed '{' on line 28
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:20:00 --> Unclosed '{' on line 28
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:20:48 --> Unclosed '{' on line 16
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:20:50 --> Unclosed '{' on line 16
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:21:47 --> Unclosed '{' on line 16
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 15:21:49 --> Unclosed '{' on line 16
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 17:59:23 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('nav_view', Array, true)
+#2 C:\xampp\htdocs\Mendez\app\Controllers\Home.php(11): view('nav_view')
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

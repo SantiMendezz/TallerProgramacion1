@@ -1,0 +1,108 @@
+CRITICAL - 2022-06-08 15:12:22 --> Undefined variable: id
+#0 C:\xampp\htdocs\Mendez\app\Views\back\dashboard.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Mendez\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('back/dashboard', Array, true)
+#4 C:\xampp\htdocs\Mendez\app\Controllers\Dashboard.php(14): view('back/dashboard')
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 15:36:07 --> Undefined variable: id
+#0 C:\xampp\htdocs\Mendez\app\Views\back\dashboard.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Mendez\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Mendez\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Mendez\system\Common.php(1089): CodeIgniter\View\View->render('back/dashboard', Array, true)
+#4 C:\xampp\htdocs\Mendez\app\Controllers\Dashboard.php(14): view('back/dashboard')
+#5 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 15:45:46 --> Undefined property: App\Controllers\Dashboard::$uri
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 15:46:23 --> Undefined property: App\Controllers\Dashboard::$Usuarios_model
+#0 C:\xampp\htdocs\Mendez\app\Controllers\Dashboard.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 15:48:31 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:49:04 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:49:05 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:49:45 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:49:52 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:50:58 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:50:58 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:51:02 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:52:37 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:52:38 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:52:42 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 15:54:15 --> Class 'App\Controllers\Usuarios_model' not found
+#0 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(832): App\Controllers\Dashboard->eliminar_usuario('3')
+#1 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Mendez\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Mendez\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
